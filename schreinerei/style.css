@@ -1,0 +1,84 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Weiße Hintergrundfarbe */
+            color: #333333; /* Dunkelgraue Schriftfarbe */
+        }
+
+        header {
+            background-color: #444444; /* Dunkelgraue Hintergrundfarbe */
+            color: #ffffff; /* Weiße Schriftfarbe */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #555555; /* Mittelgraue Hintergrundfarbe für Navigation */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff; /* Weiße Schriftfarbe */
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+         .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f0f0f0; /* Helle graue Hintergrundfarbe */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container > div, .container > img {
+            flex: 1;
+            margin: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1, h2 {
+            color: #333333; /* Dunkelgraue Schriftfarbe */
+        }
+
+        footer {
+            background-color: #444444; /* Dunkelgraue Hintergrundfarbe */
+            color: #ffffff; /* Weiße Schriftfarbe */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .top-header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #333333; /* Dunkelgraue Hintergrundfarbe für die obere Überschrift */
+            color: #ffffff; /* Weiße Schriftfarbe */
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000; /* Sicherstellen, dass die Überschrift oben bleibt */
+        }
+
+        .content {
+            padding-top: 60px; /* Platz schaffen für die feste obere Überschrift */
+        }
+
+
+
